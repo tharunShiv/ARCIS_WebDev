@@ -1,0 +1,25 @@
+body{
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  color : white;
+}
+.photo{
+  width : 80%;
+  height: auto;
+  margin-top: 1em;
+  display: inline;
+}
+.wrapper{
+  border : 2px solid rgba(255,255,255,0.5);
+}
+.interests{
+  padding-top: 3.5em;
+}
+.name{
+  font-size: 3em;
+}

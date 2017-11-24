@@ -1,0 +1,68 @@
+body{
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  color : white;
+}
+h2{
+    text-align: center;
+}
+h3{
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 2em;
+}
+.images{
+  margin-top: 5%;
+}
+hr{
+  border-top: 1px solid white;
+}
+.filler{
+  margin-top : 50%;
+}
+p{
+  font-size: 1.5em;
+}
+footer h3{
+  padding-bottom: 5px;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 50px;
+}
+input[type="submit"]{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight : bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.fa{
+  color : white;
+  font-size: 2.6em;
+}
+.fa:hover{
+  text-decoration: none;
+}
+.fa-facebook-square:hover{
+  color: #3b5998;
+}
+.fa-linkedin-square:hover{
+  color: #007bb6;
+}
+.fa-instagram:hover{
+  color: #517fa4;
+}
+.fa-google-plus:hover{
+  color : #d34836;
+}
+h4 a:hover{
+  text-decoration: none;
+}
