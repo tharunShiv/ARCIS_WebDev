@@ -1,13 +1,30 @@
 body{
-  background: #2C3E50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: url("/resources/bg1.jpg") !important;
+  background-position: top;
+
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-size: cover;
+
+  //background: #2C3E50;  /* fallback for old browsers */
+  //background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  //background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 2px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   color : white;
 }
+
+.heading1{
+  color:#A61616;
+}
+
+hr{
+  border-color:#A61616;
+}
+
 h2{
     text-align: center;
 }
@@ -19,6 +36,7 @@ h3{
 }
 .images{
   margin-top: 5%;
+
 }
 hr{
   border-top: 1px solid white;
@@ -51,18 +69,26 @@ input[type="submit"]{
 .fa:hover{
   text-decoration: none;
 }
-.fa-facebook-square:hover{
+.fa-facebook-square{
   color: #3b5998;
 }
-.fa-linkedin-square:hover{
+.fa-linkedin-square{
   color: #007bb6;
 }
-.fa-instagram:hover{
+.fa-instagram{
   color: #517fa4;
 }
-.fa-google-plus:hover{
+.fa-google-plus{
   color : #d34836;
 }
 h4 a:hover{
   text-decoration: none;
+}
+
+.panel-head{
+  background-color: #F44D14;
+  text-align:center;
+  color:white;
+  border-bottom:3px solid #A61616;
+  margin-bottom: 0;
 }

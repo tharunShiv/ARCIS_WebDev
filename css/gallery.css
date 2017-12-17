@@ -1,8 +1,11 @@
 body{
-  background: #2C3E50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Barlow Condensed', sans-serif;
+  background: url("/resources/bg1.jpg") !important;
+  background-position: top;
+
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-size: cover;
+font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 2px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -19,4 +22,12 @@ body{
 }
 .rounded{
   margin : 3.5%;
+}
+
+.heading{
+  color:#A61616;
+}
+
+.rounded{
+  border:1px solid #F44D14;
 }

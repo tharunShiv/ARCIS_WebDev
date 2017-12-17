@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -19,38 +20,47 @@
       <div class="inner">
         <div class="row ht">
           <h1 class="masthead-brand col-12 col-sm-3"><img src="resources/logoarcis.png" width="100%"></h1>
-          <nav class="nav nav-masthead col-12 col-sm-9 justify-content-end">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="team.html">Our Team</a>
-            <a class="nav-link" href="gallery.html">Gallery</a>
-            <a class="nav-link" href="achievements.html">Achievements</a>
-            <a class="nav-link" href="donations.html">Donations</a>
-            <a class="nav-link" id="contact" href="contactus.html">Contact</a>
-          </nav>
+            <nav class="nav nav-masthead col-12 col-sm-9 ">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+               <i class="fa fa-navicon" style="font-size:36px"></i>
+        </button>
+       <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav" style="display:inline;float:right">
+                    <li><a class="nav-link active" href="#"> Home </a></li>
+                    <li><a class="nav-link" href="team.html"> Our Team </a></li>
+                    <li><a class="nav-link" href="gallery.html"> Gallery </a></li>
+                    <li><a class="nav-link" href="achievements.html"> Achievements </a></li>
+                    <li><a class="nav-link" href="donations.html"> Donations</a> </li>
+                    <li><a class="nav-link" id="contact" href="contactus.html"> Contact</a> </li>
+         </ul>
+
         </div>
+      </nav>
+      </div>
       </div>
     </header>
   </div>
   <div class="container-fluid">
     <div class="row d-none d-sm-block">
       <section class="images">
-        <img class="mySlides offset-1 col-10" src="resources/plane1.jpg" height="400px">
-        <img class="mySlides offset-1 col-10" src="resources/plane2.jpg" height="400px">
-        <img class="mySlides offset-1 col-10" src="resources/plane3.jpg" height="400px">
-        <img class="mySlides offset-1 col-10" src="resources/plane4.jpg" height="400px">
+        <img class="mySlides offset-1 col-10" src="resources/plane1.jpg" height="400px" style="border-bottom: 2px solid #A61616;">
+        <img class="mySlides offset-1 col-10" src="resources/plane2.jpg" height="400px" style="border-bottom: 2px solid #A61616;">
+        <img class="mySlides offset-1 col-10" src="resources/plane3.jpg" height="400px" style="border-bottom: 2px solid #A61616;">
+        <img class="mySlides offset-1 col-10" src="resources/plane4.jpg" height="400px" style="border-bottom: 2px solid #A61616;">
       </section>
     </div>
     <div class="filler d-block d-sm-none">
     </div>
-    <div class="container">
-      <h2>ABOUT US</h2>
-      <h3>OUR STORY</h3>
+    <section class="container">
+      <h2 class="heading1">Who are we?</h2>
+      <h3 class="heading1">OUR STORY</h3>
       <div class="row">
         <p>TEAM ARCIS represents the Aero Design club of Dayananda Sagar College of Engineering, Bangalore. TEAM ARCIS was established in 2012. It is the brainchild of three UAV fanatics. We began small but we continue to grow and improve every year.
           <br><br>TEAM ARCIS is the official team of the college for the SAE International Aero design Collegiate series. The team's passion for aero designing can be seen in their work, from designing and fabrication of the model airplane, to constructing
           and building the radio controlled airplane(rc airplane), then to the final flying phase. Our team regularly competes on an international stage, competing against teams from all over the world, from Germany to China, the USA to Japan.</p>
       </div><br><br><br>
-      <h3>SPONSORS</h3>
+        <hr style="border: 1px solid #A61616">
+      <h2 class="heading1">SPONSORS</h2>
       <br>
       <div class="row">
         <p class="col-md-5">SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) published by Dassault Systemes. We use SOLIDWORKS for DESIGN, ASSEMBLY and SIMULATION or our RC airplane</p>
@@ -58,7 +68,7 @@
         <img class="col-md-4" src="resources/sponsor1.jpg" width="100%" height="250px">
       </div>
       <br>
-      <hr>
+      <hr style="border: 1px solid #A61616; width:60%;">
       <br>
       <div class="row">
         <img class="col-md-4" src="resources/sponsor2.jpg" width="100%" height="250px">
@@ -67,8 +77,12 @@
           and heat transfer. We use ANSYS for STRESS ANALYSIS, CFD and CFX.</p>
       </div>
     </div>
-    <br><br>
+    <br><br><br/>
     <footer>
+      <hr style="border: 1px solid #A61616">
+      <p class="heading1" style="text-align:center;">Contact:<a href="contactus.html"> Click here for Contact info </a></p>
+    </footer>
+    <!--<footer>
       <p>"People put themselves in difficult situations in lots of different areas. What you count on is people taking every precaution. The aerospace industry is unique in this aspect because a thousandths-of-an-inch mistake can cause spectacular failures."</p>
       <hr>
       <div class="row">
@@ -111,11 +125,12 @@
 
   </footer>
 
-
+-->
   <script type="text/javascript" src="js/slides.js">
   </script>
-
-  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </section>
 
 </body>
 
