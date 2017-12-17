@@ -10,7 +10,7 @@ body{
   //background: #2C3E50;  /* fallback for old browsers */
   //background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
   //background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Barlow Condensed', sans-serif;
+  //font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 2px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -91,4 +91,73 @@ h4 a:hover{
   color:white;
   border-bottom:3px solid #A61616;
   margin-bottom: 0;
+}
+
+@media only screen and (max-width:950px){
+   section.images{
+     margin-top:8%;
+   }
+
+    .cont{
+      margin-top:8%;
+    }
+
+   .logoa{
+     margin-top:10%;
+   }
+}
+
+
+@media only screen and (max-width:768px){
+
+
+  .nav{
+    z-index: 100;
+    width:100%;
+    padding:0;
+    margin:0;
+    clear:both;
+    background-color: #404040;
+   }
+
+  .navbar-toggle button{
+    text-align: right;
+ }
+
+   section.images{
+     margin-top:28%;
+   }
+
+   .ach{
+     margin-top:20%;
+   }
+
+    .don{
+      margin-top:20%;
+    }
+
+   .logoa{
+     margin:0;
+     width:50%;
+   }
+
+}
+
+@media only screen and (max-width:576px){
+  .whoa{
+    margin-top:28%;
+  }
+
+  .ach{
+     margin-top:20%;
+  }
+
+  .don{
+    margin-top:20% !important;
+
+  }
+
+  .logoa{
+    margin-top:5%;
+  }
 }

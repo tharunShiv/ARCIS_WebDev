@@ -33,3 +33,51 @@ body{
 .spec{
   color:#F44D14;
 }
+
+@media only screen and (max-width:950px){
+
+   .logoa{
+     margin-top:10%;
+   }
+}
+
+
+@media only screen and (max-width:768px){
+
+
+  .nav{
+    z-index: 100;
+    width:100%;
+    padding:0;
+    margin:0;
+    clear:both;
+    background-color: #404040;
+   }
+
+  .navbar-toggle button{
+    text-align: right;
+ }
+
+   .ourteam{
+     margin-top:10%;
+   }
+
+
+   .logoa{
+     margin:0;
+     width:50%;
+   }
+
+}
+
+@media only screen and (max-width:576px){
+
+
+  .logoa{
+    margin-top:5%;
+  }
+
+  .ourteam{
+    margin-top:20%;
+  }
+}
